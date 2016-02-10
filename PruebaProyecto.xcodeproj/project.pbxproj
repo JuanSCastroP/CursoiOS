@@ -6,17 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		0461ED951C67D25900EFDB31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461ED941C67D25900EFDB31 /* main.m */; };
-		0461ED981C67D25900EFDB31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461ED971C67D25900EFDB31 /* AppDelegate.m */; };
-		0461ED9B1C67D25900EFDB31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461ED9A1C67D25900EFDB31 /* ViewController.m */; };
-		0461ED9E1C67D25900EFDB31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0461ED9C1C67D25900EFDB31 /* Main.storyboard */; };
-		0461EDA01C67D25900EFDB31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0461ED9F1C67D25900EFDB31 /* Assets.xcassets */; };
-		0461EDA31C67D25900EFDB31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0461EDA11C67D25900EFDB31 /* LaunchScreen.storyboard */; };
-		0461EDAE1C67D25900EFDB31 /* PruebaProyectoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461EDAD1C67D25900EFDB31 /* PruebaProyectoTests.m */; };
-		0461EDB91C67D25900EFDB31 /* PruebaProyectoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461EDB81C67D25900EFDB31 /* PruebaProyectoUITests.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		0461EDAA1C67D25900EFDB31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -35,22 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0461ED901C67D25800EFDB31 /* PruebaProyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaProyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0461ED941C67D25900EFDB31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0461ED961C67D25900EFDB31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0461ED971C67D25900EFDB31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0461ED991C67D25900EFDB31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0461ED9A1C67D25900EFDB31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0461ED9D1C67D25900EFDB31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0461ED9F1C67D25900EFDB31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0461EDA21C67D25900EFDB31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0461EDA41C67D25900EFDB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0461EDA91C67D25900EFDB31 /* PruebaProyectoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaProyectoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0461EDAD1C67D25900EFDB31 /* PruebaProyectoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PruebaProyectoTests.m; sourceTree = "<group>"; };
-		0461EDAF1C67D25900EFDB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0461EDB41C67D25900EFDB31 /* PruebaProyectoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaProyectoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0461EDB81C67D25900EFDB31 /* PruebaProyectoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PruebaProyectoUITests.m; sourceTree = "<group>"; };
-		0461EDBA1C67D25900EFDB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041268B81C6AFC1E0076D490 /* MiniReto.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MiniReto.playground; sourceTree = "<group>"; };
+		0461ED901C67D25800EFDB31 /* PruebaProyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PruebaProyecto.app; path = "/Users/mac/Documents/Programas Xcode/Week 1/PruebaProyecto/build/Debug-iphoneos/PruebaProyecto.app"; sourceTree = "<absolute>"; };
+		0461EDA91C67D25900EFDB31 /* PruebaProyectoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PruebaProyectoTests.xctest; path = "/Users/mac/Documents/Programas Xcode/Week 1/PruebaProyecto/build/Debug-iphoneos/PruebaProyectoTests.xctest"; sourceTree = "<absolute>"; };
+		0461EDB41C67D25900EFDB31 /* PruebaProyectoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PruebaProyectoUITests.xctest; path = "/Users/mac/Documents/Programas Xcode/Week 1/PruebaProyecto/build/Debug-iphoneos/PruebaProyectoUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,63 +58,8 @@
 		0461ED871C67D25800EFDB31 = {
 			isa = PBXGroup;
 			children = (
-				0461ED921C67D25800EFDB31 /* PruebaProyecto */,
-				0461EDAC1C67D25900EFDB31 /* PruebaProyectoTests */,
-				0461EDB71C67D25900EFDB31 /* PruebaProyectoUITests */,
-				0461ED911C67D25800EFDB31 /* Products */,
+				041268B81C6AFC1E0076D490 /* MiniReto.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		0461ED911C67D25800EFDB31 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0461ED901C67D25800EFDB31 /* PruebaProyecto.app */,
-				0461EDA91C67D25900EFDB31 /* PruebaProyectoTests.xctest */,
-				0461EDB41C67D25900EFDB31 /* PruebaProyectoUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0461ED921C67D25800EFDB31 /* PruebaProyecto */ = {
-			isa = PBXGroup;
-			children = (
-				0461ED961C67D25900EFDB31 /* AppDelegate.h */,
-				0461ED971C67D25900EFDB31 /* AppDelegate.m */,
-				0461ED991C67D25900EFDB31 /* ViewController.h */,
-				0461ED9A1C67D25900EFDB31 /* ViewController.m */,
-				0461ED9C1C67D25900EFDB31 /* Main.storyboard */,
-				0461ED9F1C67D25900EFDB31 /* Assets.xcassets */,
-				0461EDA11C67D25900EFDB31 /* LaunchScreen.storyboard */,
-				0461EDA41C67D25900EFDB31 /* Info.plist */,
-				0461ED931C67D25900EFDB31 /* Supporting Files */,
-			);
-			path = PruebaProyecto;
-			sourceTree = "<group>";
-		};
-		0461ED931C67D25900EFDB31 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0461ED941C67D25900EFDB31 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0461EDAC1C67D25900EFDB31 /* PruebaProyectoTests */ = {
-			isa = PBXGroup;
-			children = (
-				0461EDAD1C67D25900EFDB31 /* PruebaProyectoTests.m */,
-				0461EDAF1C67D25900EFDB31 /* Info.plist */,
-			);
-			path = PruebaProyectoTests;
-			sourceTree = "<group>";
-		};
-		0461EDB71C67D25900EFDB31 /* PruebaProyectoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0461EDB81C67D25900EFDB31 /* PruebaProyectoUITests.m */,
-				0461EDBA1C67D25900EFDB31 /* Info.plist */,
-			);
-			path = PruebaProyectoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,7 +149,7 @@
 				Base,
 			);
 			mainGroup = 0461ED871C67D25800EFDB31;
-			productRefGroup = 0461ED911C67D25800EFDB31 /* Products */;
+			productRefGroup = 0461ED871C67D25800EFDB31;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -243,9 +165,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0461EDA31C67D25900EFDB31 /* LaunchScreen.storyboard in Resources */,
-				0461EDA01C67D25900EFDB31 /* Assets.xcassets in Resources */,
-				0461ED9E1C67D25900EFDB31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +189,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0461ED9B1C67D25900EFDB31 /* ViewController.m in Sources */,
-				0461ED981C67D25900EFDB31 /* AppDelegate.m in Sources */,
-				0461ED951C67D25900EFDB31 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +196,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0461EDAE1C67D25900EFDB31 /* PruebaProyectoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0461EDB91C67D25900EFDB31 /* PruebaProyectoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +220,6 @@
 			targetProxy = 0461EDB51C67D25900EFDB31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0461ED9C1C67D25900EFDB31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0461ED9D1C67D25900EFDB31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0461EDA11C67D25900EFDB31 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0461EDA21C67D25900EFDB31 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0461EDBB1C67D25900EFDB31 /* Debug */ = {
@@ -498,6 +393,7 @@
 				0461EDBF1C67D25900EFDB31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0461EDC01C67D25900EFDB31 /* Build configuration list for PBXNativeTarget "PruebaProyectoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +402,7 @@
 				0461EDC21C67D25900EFDB31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0461EDC31C67D25900EFDB31 /* Build configuration list for PBXNativeTarget "PruebaProyectoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +411,7 @@
 				0461EDC51C67D25900EFDB31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
